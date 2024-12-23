@@ -1,0 +1,29 @@
+@media only screen and (max-width: 800px) {
+    .grid-r{
+        display: grid;
+        grid-template-columns: repeat(1 ,minmax(0 ,1fr));
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .max-w-r{
+        width: 15%; 
+    }
+    .card-w{
+        width: 85%;
+    }
+    .gap-r{
+        gap: 5rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .flex-d-r{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .btn-size-r{
+        width: 100px;
+    }
+    
+}
